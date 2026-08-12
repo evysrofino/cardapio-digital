@@ -47,3 +47,9 @@ strong {
 .cabecalho p {
     font-size: 18px;
 }
+
+.produto img {
+    width: 100%;
+    max-width: 300px;
+    boder-radius: 10px;
+}
