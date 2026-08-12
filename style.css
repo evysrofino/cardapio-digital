@@ -11,6 +11,7 @@ h1 {
 
 h2 {
     color: #7f8c8d;
+    text-align: center;
 }
 
 h3 {
@@ -51,7 +52,7 @@ strong {
 .produto img {
     width: 100%;
     max-width: 300px;
-    boder-radius: 10px;
+    border-radius: 10px;
     display: block;
     margin: 0 auto 15px;
 }
@@ -59,7 +60,7 @@ strong {
 .produtos {
     display: grid;
     grid-template-columns: 
-    repeat (3, afr);
+    repeat(3, 1fr);
     gap: 20px;
     max-width: 1000px;
     margin: 0 auto;
