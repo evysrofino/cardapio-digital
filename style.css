@@ -52,4 +52,22 @@ strong {
     width: 100%;
     max-width: 300px;
     boder-radius: 10px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: 
+    repeat (3, afr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+    .produtos {
+        grid-template-columns: auto1fr;
+        
+    }
 }
