@@ -58,6 +58,11 @@ strong {
     border-radius: 10px;
     display: block;
     margin: 0 auto 15px;
+    
+}
+
+.produto h3 {
+    white-space: nowrap;
 }
 
 .produtos {
