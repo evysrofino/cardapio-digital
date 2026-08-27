@@ -77,4 +77,25 @@ strong {
     .produtos {
         grid-template-columns: 1fr; 
     }
+
+    .menu-categorias {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.menu-categorias a {
+    text-decoration: none;
+    background-color: white;
+    color: #333333;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.menu-categorias a:hover {
+    background-color: #f1e4d7;
+}
 }
