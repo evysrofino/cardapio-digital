@@ -77,7 +77,7 @@ strong {
     .produtos {
         grid-template-columns: 1fr; 
     }
-
+}
     .menu-categorias {
     display: flex;
     justify-content: center;
@@ -97,5 +97,4 @@ strong {
 
 .menu-categorias a:hover {
     background-color: #f1e4d7;
-}
 }
